@@ -1,0 +1,106 @@
+string_0 = "HAII"
+print(string_0)
+print(type(string_0))
+
+
+
+#Creating a String
+#with single Quotes
+String1 = 'Hallo'
+print("String with the use of Single Quotes: ")
+print(String1)
+
+#Creating a String
+# with double Quotes
+String1 = "allo"
+print("\nString with the use of Double Quotes: ")
+print(String1)
+
+#Creating String with triple
+#Quotes allows multiple lines
+String1 = '''Geeks
+For
+Life'''
+print("\nCreating a multiline String: ")
+print(String1)
+
+
+
+String1 = "cantik"
+print("Initial string: ")
+
+#Printing first character
+print("First character of String is: ", String1[0])
+
+
+String1 = "jelek"
+print("Initial String: ", String1)
+
+# Printing Last character
+print("Last character of String is: ", String1[-3])
+
+
+# Creating a String
+String1 = "Bay bay"
+print("Initial String: ")
+print(String1)
+
+# printing 3rd to 12th character
+print("\nSlicing characters from 9-15: ")
+print(String1[9:15])
+
+# printing characters between
+# 3rd and 2nd Last character
+print("\nSlicing characters between" +
+      "3rd and 2nd last character: ")
+print(String1[9:-15])
+
+
+
+#Pogram to reverse a string
+gfg = "fine"
+print(gfg[::-1])
+
+
+
+# program to reverse a String
+gfg = "p"
+
+# Reverse the string reversed and join function
+gfg = "".join(reversed(gfg))
+print(gfg)
+
+
+# python program to delete
+# character of a String
+
+String1 = "okey"
+print("Initial String: ")
+print(String1)
+print("Deleting character at 2nd Index: ")
+del String1[2]
+print(String1)
+
+
+# python program to Delete
+# Input String
+String1 = "Haii"
+print("Initial String: ")
+print(String1)
+
+# Deleting a String
+# with the use of del
+del String1
+print("\nDeleting entire String: ")
+print(String1)
+
+
+ Initial String1
+String = '''I'm a "Geek"'''
+print("Initial String with use of Triple Quotes: ")
+      print(String)
+
+      # Escaping Single Qoute
+String1 = 'I\'m a "Geek"'
+print("\nEscaping Single Qoute: ")
+print(String)
